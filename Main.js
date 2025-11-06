@@ -1,15 +1,4 @@
-document.addEventListener("DOMContentLoaded", () => {
-  // Theme Toggle
-  const themeToggle = document.getElementById("theme-toggle");
-  themeToggle.addEventListener("click", () => {
-    document.body.dataset.theme =
-      document.body.dataset.theme === "light" ? "dark" : "light";
-  });
-  console.log(themeToggle);
-
-  // Smooth Scroll
-  document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
-    anchor.addEventListener("click", function (e) {
+zLKksxz,zd j nklfkdjb
       e.preventDefault();
       document.querySelector(this.getAttribute("href")).scrollIntoView({
         behavior: "smooth",
@@ -20,7 +9,7 @@ document.addEventListener("DOMContentLoaded", () => {
   // Navbar Scroll Effect
   window.addEventListener("scroll", () => {
     const navbar = document.getElementById("navbar");
-    if (window.scrollY > 100) {
+    if (window.scrollY > 100) {m blkgn/kbnlkfsnxknvl.k sl.jbxkv lk ho;8hsdoivdso;ih08awyvorwrvo8h;8ofbv;orevho8fhzk hdkz ,mkj.x buiowegi.
       navbar.classList.add("scrolled");
     } else {
       navbar.classList.remove("scrolled");
